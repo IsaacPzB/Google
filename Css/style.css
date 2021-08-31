@@ -1,0 +1,107 @@
+body {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+    margin: 16px 30px 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.init_session {
+   
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    color: white;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: auto;
+}
+.init_search{
+    
+    border: 2px solid #e8e8eb;
+    background: #f5f4f4;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 6px;
+    width: auto;
+    
+}
+
+.init_search:hover{
+    background: rgba(241, 240, 240, 0.945);
+}
+.init_happy{
+    
+    border: 2px solid #e8e8eb;
+    background: #f5f4f4;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 6px;
+    width: auto;
+    
+}
+
+.init_happy:hover{
+    background: rgba(241, 240, 240, 0.945);
+}
+.init_session:hover {
+    background: rgba(66, 133, 244, 0.71);
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 106px;
+    font-size: 90px;
+    width: 850px;
+    height: 40px;
+}
+
+.input-search {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 52px 480px 52px;
+    grid-template-rows: 46px;
+    grid-template-areas: "lupa imput micro";
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+}
